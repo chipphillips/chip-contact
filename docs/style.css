@@ -17,3 +17,7 @@ h1{font:650 52px/.98 Oswald,'Arial Narrow',sans-serif;margin:0;letter-spacing:0}
 .logo{width:220px;margin-bottom:24px}.portrait-frame{margin-bottom:16px}.role{margin-top:12px}.tagline{font:400 15px/1.5 Saira,sans-serif;color:var(--muted);margin:8px 0 0}.spot-art{margin-bottom:30px}
 @media(min-width:701px){.logo{width:240px;margin-bottom:28px}}
 @media(max-width:359px){.logo{width:210px;margin-bottom:20px}.portrait-frame{margin-bottom:14px}.spot-art{margin-bottom:26px}.tagline{font-size:14px}}
+
+.brand-action img{width:205px;max-width:82%;height:auto}.phone{text-align:center;margin:5px 0 0;font-size:15px}.phone a{color:var(--ink);text-underline-offset:4px;display:inline-flex;align-items:center;min-height:44px}.product{border-top:1px solid #b7b4ae;margin-top:32px;padding-top:24px;text-align:center}.product h2{font:550 24px/1.25 Oswald,sans-serif;letter-spacing:.018em;margin:0 0 18px}.comparison{display:block;background:#fff}.comparison img{display:block;width:100%;height:auto}.comparison:focus-visible{outline:3px solid var(--blue);outline-offset:3px}.product p{font-size:12px;color:var(--muted);margin:12px 0 0}
+
+.action-icon{flex:0 0 24px;width:24px;height:24px}
