@@ -1,0 +1,14 @@
+@font-face{font-family:Oswald;src:url('assets/Oswald-Variable.ttf');font-weight:200 700;font-display:swap}
+@font-face{font-family:Saira;src:url('assets/Saira-Variable.ttf');font-weight:100 900;font-display:swap}
+
+:root{color-scheme:only light;--paper:#F4F1EA;--ink:#1A1A1A;--muted:#5C5C5C;--blue:#2A4B7C}
+*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:17px/1.5 Saira,'Segoe UI',sans-serif}
+.preview{padding:7px 12px;border-bottom:1px solid var(--muted);font:11px/1.4 'Courier Prime',monospace;text-align:center}
+main{width:min(100%,420px);margin:auto;padding:20px 24px 18px}.identity{text-align:center}.logo{display:block;width:190px;height:auto;margin:0 auto 20px}
+.portrait-frame{width:94px;height:94px;padding:5px;border:5px solid var(--blue);border-radius:50%;background:#fff;margin:0 auto 12px}.portrait{display:block;width:100%;height:100%;object-fit:contain;border-radius:50%}
+h1{font:650 52px/.98 Oswald,'Arial Narrow',sans-serif;margin:0;letter-spacing:0}.role{font:500 17px/1.5 Saira,'Segoe UI',sans-serif;margin:10px 0 0}.rule{width:64px;height:2px;background:var(--blue);margin:16px auto 10px}.spot-art{display:block;width:132px;height:auto;margin:0 auto 16px}
+.actions{display:grid;gap:10px}.action{min-height:56px;display:flex;justify-content:space-between;align-items:center;gap:12px;padding:13px 18px;border:2px solid var(--ink);background:var(--paper);color:var(--ink);font:550 18px/1.4 Oswald,'Arial Narrow',sans-serif;text-decoration:none}.action.primary{background:var(--ink);color:var(--paper)}.action:hover{border-color:var(--blue);text-decoration:underline;text-underline-offset:4px}.action.primary:hover{background:var(--blue)}.action:active{transform:translateY(2px)}.action:focus-visible{outline:3px solid var(--blue);outline-offset:3px}.contact-address{font-size:14px;line-height:1.5;color:var(--muted);text-align:center;margin:14px 0 0;overflow-wrap:anywhere}
+@media(min-width:701px){main{padding-top:28px}.logo{margin-bottom:24px}.portrait-frame{width:106px;height:106px}h1{font-size:58px}.spot-art{width:144px}}
+@media(max-width:359px){main{padding:16px 20px}.logo{width:176px;margin-bottom:16px}.portrait-frame{width:84px;height:84px;margin-bottom:10px}h1{font-size:48px}.role{font-size:16px}.rule{margin-top:12px}.spot-art{width:120px;margin-bottom:12px}.actions{gap:8px}}
+@media(prefers-reduced-motion:reduce){.action:active{transform:none}}
+:root{--contact-track-name:0.018em;--contact-track-action:0.045em}h1{letter-spacing:var(--contact-track-name)}.action>span:first-child{letter-spacing:var(--contact-track-action)}

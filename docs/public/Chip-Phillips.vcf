@@ -1,0 +1,9 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Phillips;Chip;;;
+FN:Chip Phillips
+ORG:Constructiv AI
+TITLE:Founder
+EMAIL;TYPE=INTERNET,WORK:chip@constructivai.com
+URL:https://constructivai.com
+END:VCARD
