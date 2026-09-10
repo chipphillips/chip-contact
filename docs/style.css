@@ -12,3 +12,8 @@ h1{font:650 52px/.98 Oswald,'Arial Narrow',sans-serif;margin:0;letter-spacing:0}
 @media(max-width:359px){main{padding:16px 20px}.logo{width:176px;margin-bottom:16px}.portrait-frame{width:84px;height:84px;margin-bottom:10px}h1{font-size:48px}.role{font-size:16px}.rule{margin-top:12px}.spot-art{width:120px;margin-bottom:12px}.actions{gap:8px}}
 @media(prefers-reduced-motion:reduce){.action:active{transform:none}}
 :root{--contact-track-name:0.018em;--contact-track-action:0.045em}h1{letter-spacing:var(--contact-track-name)}.action>span:first-child{letter-spacing:var(--contact-track-action)}
+
+/* Contact spacing refinement: larger brand anchor, quiet tagline, clearer action separation. */
+.logo{width:220px;margin-bottom:24px}.portrait-frame{margin-bottom:16px}.role{margin-top:12px}.tagline{font:400 15px/1.5 Saira,sans-serif;color:var(--muted);margin:8px 0 0}.spot-art{margin-bottom:30px}
+@media(min-width:701px){.logo{width:240px;margin-bottom:28px}}
+@media(max-width:359px){.logo{width:210px;margin-bottom:20px}.portrait-frame{margin-bottom:14px}.spot-art{margin-bottom:26px}.tagline{font-size:14px}}
